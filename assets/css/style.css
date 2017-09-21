@@ -1,0 +1,33 @@
+body {
+	  background-color: #CFA76E; 
+	
+}
+h1, h2{
+	color: #783201;
+	
+	text-align: center;
+}
+ .jumbotron{
+ 	margin-top: 2em;
+	background-image: url(../images/wallpaper.jpg);
+	opacity: 0.7;
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+}
+p {
+	margin-top: 1em;
+	color: #783201;
+	font-size: 2em;
+	font-weight: bold;
+}
+label {
+	color: #783201;
+	font-size: 1.25em;
+	margin-right: 1em;
+}
+#displayPage, #resultPage{
+	display: none;
+} 
+#done, #letsGo {
+	margin-top: 2em;
+}

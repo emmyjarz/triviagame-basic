@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>TriviaGame</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	 crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Trivia Game</h1>
+		<div class="jumbotron container-fluid">
+			<h2> Time Remaining: <span id="clock">30</span> Seconds</h2>
+			<button id="letsGo" class="btn btn-lg btn-warning">Let's Go ! ! !</button>
+			<div id="displayPage">
+				<p>What is the most common training command taught to dogs?</p>
+				<form action="">
+					<input class="answer" type="radio" value="wrong" name="pickOne">
+					<label for="">Stay</label>
+					<input class="answer" type="radio" value="wrong" name="pickOne">
+					<label for="">Beg</label>
+					<input class="answer" type="radio" value="correct" name="pickOne">
+					<label for="">Sit</label>
+					<input class="answer" type="radio" value="wrong" name="pickOne">
+					<label for="">Dance</label>
+				</form>
+				
+				<p>Puppies are delivered how many weeks after conception?</p>
+				<form action="">
+					<input class="answer" type="radio" value="wrong" name="pickOne">
+					<label for="">36</label>
+					<input class="answer" type="radio" value="wrong" name="pickOne">
+					<label for="">22</label>
+					<input class="answer" type="radio" value="correct" name="pickOne">
+					<label for="">9</label>
+					<input class="answer" type="radio" value="wrong" name="pickOne">
+					<label for="">16</label>
+				</form>
+
+				<p>What is the most popular dog breed, according to the American Kennel Club’s registrations?</p>
+				<form action="">
+					<input class="answer" type="radio" value="wrong" name="pinkOne">
+					<label for="">Golden Retriever</label>
+					<input class="answer" type="radio" value="wrong" name="pinkOne">
+					<label for="">Beagle</label>
+					<input class="answer" type="radio" value="wrong" name="pinkOne">
+					<label for="">German Shepherd</label>
+					<input class="answer" type="radio" value="correct" name="pinkOne">
+					<label for="">Labrador</label>
+				</form>
+
+				<p>Which TV series had a dog named K9 who was also a robot?</p>
+				<form action="">
+					<input class="answer" type="radio" value="wrong" name="pinkOne">
+					<label for="">Full House</label>
+					<input class="answer" type="radio" value="wrong" name="pinkOne">
+					<label for="">Star Trek</label>
+					<input class="answer" type="radio" value="correct" name="pinkOne">
+					<label for="">Doctor Who</label>
+					<input class="answer" type="radio" value="wrong" name="pinkOne">
+					<label for="">Law & Order</label>
+				</form>
+
+				<p>What is the smallest dog breed used in hunting?</p>
+				<form action="">
+					<input class="answer" type="radio" value="wrong" name="pinkOne">
+					<label for="">Chihuahua</label>
+					<input class="answer" type="radio" value="correct" name="pinkOne">
+					<label for="">Miniature dachshund</label>
+					<input class="answer" type="radio" value="wrong" name="pinkOne">
+					<label for="">Toy poodle</label>
+					<input class="answer" type="radio" value="wrong" name="pinkOne">
+					<label for="">Smooth fox terrier</label>
+				</form>
+
+				<button id="done" class="btn btn-lg btn-warning">Done</button>
+			</div>
+			<!-- displayPage -->
+			<div id="resultPage">
+				<p>Correct Answers: <span id="correctAns"></span></p>
+				<p>Incorrect Answers: <span id="wrongAns"></span></p>
+				<p>Unanswered: <span id="unAns"></span></p>
+			</div>
+		</div>
+		<!-- jumbotron -->
+	</div>
+	<!--container-->
+
+
+
+
+
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
